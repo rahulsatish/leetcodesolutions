@@ -8,11 +8,7 @@
  */
 class Solution {
 public:
-    RandomListNode *copyRandomList(RandomListNode *head) {
-        if(head==NULL)
-        {
-            return NULL;
-        }
+ 
       
         for(RandomListNode* temp=head;temp!=NULL;temp=temp->next->next)
         {
